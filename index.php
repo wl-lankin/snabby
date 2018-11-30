@@ -3,9 +3,9 @@
 	include SCRIPTS.'include/router.php';
 	include SCRIPTS.'include/lang.php';
 	include LANG.$setlang.'.php';
-	
+
 	$mode = file_get_contents('mode.php');
-	print_r($mode);
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $setlang; ?>">
