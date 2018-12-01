@@ -32,7 +32,8 @@
 		<div class="container">
 			<section class="header">
 				<div class="logo divanim-slow">
-					<a href="//snabby.me"><img src="<?php echo DIR_PREFIX ?>/assets/img/logo-small.png">NABBY<span>me</span></a>
+					<?php if($dev) { ?><a href="<?php echo DIR_PREFIX ?>"><img src="<?php echo DIR_PREFIX ?>/assets/img/logo-small.png">NABBY<span>me</span></a><?php }
+					else { ?><a href="//snabby.me"><img src="<?php echo DIR_PREFIX ?>/assets/img/logo-small.png">NABBY<span>me</span></a><?php } ?>
 				</div>
 				<div class="nav-icons">
 					<button type="button" id="nav-settings" class="nav-settings button-theme divanim-slow"><i id="button-nav-setting" class="icon-cog"></i></button>
