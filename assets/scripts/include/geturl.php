@@ -1,7 +1,9 @@
 <?php
 	include 'lang.php';
 	include '../../lang/'.$setlang.'.php';
-	require_once( '../../../includes/load-yourls.php' );
+
+	require_once('../../../includes/load-yourls.php' );
+
 	//$page = YOURLS_SITE . '/index.php' ;
 	if ( isset( $_REQUEST['url'] ) && $_REQUEST['url'] != '' && $_REQUEST['url'] != 'http://' ) {
 		$url = $_REQUEST['url'];
@@ -31,5 +33,4 @@
 		$data[] = array('stat'	=> 'fail',
 						'input' => $lang['error-1']);
 		echo json_encode($data);
-	}	
-?>
+	}

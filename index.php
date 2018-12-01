@@ -3,9 +3,6 @@
 	include SCRIPTS.'include/router.php';
 	include SCRIPTS.'include/lang.php';
 	include LANG.$setlang.'.php';
-	
-	$mode = file_get_contents('mode.php');
-	print_r($mode);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $setlang; ?>">
@@ -19,23 +16,23 @@
 		<meta name="referrer" content="no-referrer">
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="theme-color" content="#ffffff">
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/fav/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/fav/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/fav/favicon-16x16.png">
-		<link rel="manifest" href="/assets/img/fav/site.webmanifest">
-		<link rel="mask-icon" href="/assets/img/fav/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo DIR_PREFIX ?>/assets/img/fav/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo DIR_PREFIX ?>/assets/img/fav/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo DIR_PREFIX ?>/assets/img/fav/favicon-16x16.png">
+		<link rel="manifest" href="<?php echo DIR_PREFIX ?>/assets/img/fav/site.webmanifest">
+		<link rel="mask-icon" href="<?php echo DIR_PREFIX ?>/assets/img/fav/safari-pinned-tab.svg" color="#5bbad5">
 		<title><?php echo $lang['title'] ?></title>
-		<link rel="stylesheet" href="/assets/css/style.css">
-		<link rel="stylesheet" href="/assets/css/mobile.css">
-		<script src="/assets/js/clipboard.js"></script>
-		<script src="/assets/js/jquery.js"></script>
-		<script src="/assets/js/ajax.js"></script>
+		<link rel="stylesheet" href="<?php echo DIR_PREFIX ?>/assets/css/style.css">
+		<link rel="stylesheet" href="<?php echo DIR_PREFIX ?>/assets/css/mobile.css">
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/clipboard.js"></script>
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/jquery.js"></script>
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/ajax.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<section class="header">
 				<div class="logo divanim-slow">
-					<a href="//snabby.me"><img src="/assets/img/logo-small.png">NABBY<span>me</span></a>
+					<a href="//snabby.me"><img src="<?php echo DIR_PREFIX ?>/assets/img/logo-small.png">NABBY<span>me</span></a>
 				</div>
 				<div class="nav-icons">
 					<button type="button" id="nav-settings" class="nav-settings button-theme divanim-slow"><i id="button-nav-setting" class="icon-cog"></i></button>
@@ -49,7 +46,7 @@
 				<ul>
 			</section>
 		</div>
-		<script src="/assets/js/script.js"></script>
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/script.js"></script>
 	</body>
 	<script type="text/javascript">
 	  var _paq = _paq || [];
