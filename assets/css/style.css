@@ -1,7 +1,7 @@
-@import url('/assets/css/normalize.css');
-@import url('/assets/css/icons.css');
-@import url('/assets/css/icons-ie7.css');
-@import url('/assets/css/animation.css');
+@import url('normalize.css');
+@import url('icons.css');
+@import url('icons-ie7.css');
+@import url('animation.css');
 
 /* montserrat-regular - latin */
 @font-face {
@@ -21,7 +21,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/montserrat-v12-latin-700.eot'); /* IE9 Compat Modes */
+  src: url('fonts/montserrat-v12-latin-700.eot');
   src: local('Montserrat Bold'), local('Montserrat-Bold'),
        url('fonts/montserrat-v12-latin-700.eot?#iefix') format('embedded-opentype'),
        url('fonts/montserrat-v12-latin-700.woff2') format('woff2'),
