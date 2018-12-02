@@ -22,17 +22,18 @@
 		<link rel="manifest" href="<?php echo DIR_PREFIX ?>/assets/img/fav/site.webmanifest">
 		<link rel="mask-icon" href="<?php echo DIR_PREFIX ?>/assets/img/fav/safari-pinned-tab.svg" color="#5bbad5">
 		<title><?php echo $lang['title'] ?></title>
-		<link rel="stylesheet" href="<?php echo DIR_PREFIX ?>/assets/css/style.css">
-		<link rel="stylesheet" href="<?php echo DIR_PREFIX ?>/assets/css/mobile.css">
-		<script src="<?php echo DIR_PREFIX ?>/assets/js/clipboard.js"></script>
-		<script src="<?php echo DIR_PREFIX ?>/assets/js/jquery.js"></script>
-		<script src="<?php echo DIR_PREFIX ?>/assets/js/ajax.js"></script>
+		<link rel="stylesheet" href="<?php echo DIR_PREFIX ?>/assets/css/style.min.css">
+		<link rel="stylesheet" href="<?php echo DIR_PREFIX ?>/assets/css/mobile.min.css">
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/clipboard.min.js"></script>
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/jquery.min.js"></script>
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/ajax.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<section class="header">
 				<div class="logo divanim-slow">
-					<a href="//snabby.me"><img src="<?php echo DIR_PREFIX ?>/assets/img/logo-small.png">NABBY<span>me</span></a>
+					<?php if($dev) { ?><a href="<?php echo DIR_PREFIX ?>"><img src="<?php echo DIR_PREFIX ?>/assets/img/logo-small.png">NABBY<span>me</span></a><?php }
+					else { ?><a href="//snabby.me"><img src="<?php echo DIR_PREFIX ?>/assets/img/logo-small.png">NABBY<span>me</span></a><?php } ?>
 				</div>
 				<div class="nav-icons">
 					<button type="button" id="nav-settings" class="nav-settings button-theme divanim-slow"><i id="button-nav-setting" class="icon-cog"></i></button>
@@ -46,7 +47,7 @@
 				<ul>
 			</section>
 		</div>
-		<script src="<?php echo DIR_PREFIX ?>/assets/js/script.js"></script>
+		<script src="<?php echo DIR_PREFIX ?>/assets/js/script.min.js"></script>
 	</body>
 	<script type="text/javascript">
 	  var _paq = _paq || [];

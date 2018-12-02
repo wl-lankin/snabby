@@ -1,4 +1,0 @@
-# wl_snabby
-
-## Requirements
-...
