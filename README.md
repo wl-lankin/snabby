@@ -1,4 +1,4 @@
-# ![snabby](assets/img/logo-small.png) SNABBY @ wl-lankin
+# ![snabby](assets/img/logo-complete.png)
 
 ![php](https://img.shields.io/badge/php-%3E5.6-blue.svg)
 ![jquery](https://img.shields.io/badge/jQuery-%3Ev3.3.1-blue.svg)
