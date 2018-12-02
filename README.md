@@ -2,7 +2,7 @@
 
 ![php](https://img.shields.io/badge/php-%3E5.6-blue.svg)
 ![build](https://img.shields.io/badge/build-passed-brightgreen.svg)
-![size](https://img.shields.io/badge/code--size-809kb-blue.svg)
+![size](https://img.shields.io/badge/code%20size-809kb-blue.svg)
 ![&hearts;](https://img.shields.io/badge/made%20with-%E2%9D%A4-ff69b4.svg)
 
 **Pretty frontend for the Yourls project.**
