@@ -8,14 +8,12 @@ Pretty frontend for the Yourls project.
 
 ## Requirements
 
-You need to install the complete Yourls project before
-you can use this repository.
+You need to install the complete Yourls project before you can use this repository.
 
 
 ## How to install
 
-Clone this repository in the root Yourls project folder on
-your webserver.
+Clone this repository in the root Yourls project folder on your webserver. Have fun!
 
 ```
 $ git clone https://github.com/BernhardK91/wl_snabby
