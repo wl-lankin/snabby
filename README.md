@@ -6,7 +6,7 @@
 ![GitHub All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)
 ![&hearts;](https://img.shields.io/badge/made%20with-%E2%9D%A4-ff69b4.svg)
 
-Pretty frontend for the Yourls project.
+Pretty frontend for the Yourls project.     
 Review: [SNABBY.me](https://snabby.me) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m781551754-a9218784eee99f1e856e61b1.svg)
 
 
