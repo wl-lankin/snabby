@@ -1,6 +1,8 @@
 # Snabby @ wl-lankin
 
-![php](https://img.shields.io/badge/php-%3E5.6-blue.svg) ![jquery](https://img.shields.io/badge/jQuery-%3Ev3.3.1-blue.svg) ![mysql](https://img.shields.io/badge/mysql-%3E5.0-blue.svg)
+![php](https://img.shields.io/badge/php-%3E5.6-blue.svg)
+![jquery](https://img.shields.io/badge/jQuery-%3Ev3.3.1-blue.svg)
+![mysql](https://img.shields.io/badge/mysql-%3E5.0-blue.svg)
 
 Pretty frontend for the Yourls project.
 
