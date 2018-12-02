@@ -27,5 +27,5 @@ $(document).ready(function() {
 	function newshort() {
 		location.reload();
 	}
-	
+
 });
