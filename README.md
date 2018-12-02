@@ -1,11 +1,13 @@
 # ![snabby](assets/img/logo-complete.png)
 
 ![php](https://img.shields.io/badge/php-%3E5.6-blue.svg)
-![jquery](https://img.shields.io/badge/jQuery-%3Ev3.3.1-blue.svg)
-![mysql](https://img.shields.io/badge/mysql-%3E5.0-blue.svg)
+![build](https://img.shields.io/badge/build-passing-green.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)
+![&hearts;](https://img.shields.io/badge/made%20with-%E2%9D%A4-ff69b4.svg)
 
 Pretty frontend for the Yourls project.
-Review: [SNABBY.me](https://snabby.me)
+Review: [SNABBY.me](https://snabby.me) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m781551754-a9218784eee99f1e856e61b1.svg)
 
 
 ## Requirements
